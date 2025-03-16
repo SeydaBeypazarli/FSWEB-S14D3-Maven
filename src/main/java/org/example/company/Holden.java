@@ -7,17 +7,17 @@ public class Holden extends Car {
 
     @Override
     public String startEngine() {
-        return "Holden's engine is starting";
+        return getName() + " engine is starting";
     }
 
     @Override
     public String accelerate() {
-        return "Holden is accelerating";
+        return getName() + " is accelerating";
     }
 
     @Override
     public String brake() {
-        return "Holden is braking";
+        return getName() + " is braking";
     }
 }
 

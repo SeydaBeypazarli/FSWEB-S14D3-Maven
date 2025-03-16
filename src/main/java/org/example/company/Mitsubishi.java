@@ -7,16 +7,16 @@ public class Mitsubishi extends Car {
 
     @Override
     public String startEngine() {
-        return "Mitsubishi's engine is starting";
+        return getName() + " engine is starting";
     }
 
     @Override
     public String accelerate() {
-        return "Mitsubishi is accelerating";
+        return getName() + " is accelerating";
     }
 
     @Override
     public String brake() {
-        return "Mitsubishi is braking";
+        return getName() + " is braking";
     }
 }

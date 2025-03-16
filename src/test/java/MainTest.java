@@ -84,7 +84,7 @@ public class MainTest {
         final ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         assertEquals(car.accelerate(), "the car is accelerating");
-        assertThat(out.toString(), containsString(car.getClass().getSimpleName()));
+         assertThat(out.toString(), containsString(car.getClass().getSimpleName()));
     }
 
     @DisplayName("Car brake metodu doğru çalışıyor mu ?")
